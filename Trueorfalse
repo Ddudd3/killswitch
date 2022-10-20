@@ -1,0 +1,9 @@
+Var kill = false;
+
+
+
+
+If (kill==true){
+kill();
+window.close();
+}
