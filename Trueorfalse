@@ -1,4 +1,4 @@
-Var kill = false;
+Var kill = true;
 
 
 
