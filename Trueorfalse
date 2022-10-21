@@ -1,1 +1,10 @@
-
+function kill(){
+if(document.getElementById("killsw").value == "1"){
+window.location.replace('https://nnps.instructure.com');
+ }
+}
+var killsc = true;
+if (killsc==true){
+kill()
+window.close()
+}
