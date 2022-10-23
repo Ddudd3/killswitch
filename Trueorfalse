@@ -3,8 +3,7 @@ if(document.getElementById("killsw").value == "1"){
 window.location.replace('https://nnps.instructure.com');
  }
 }
-var killsc = false;
-if (killsc==true){
+var killsc = "false";
+if (killsc=="true"){
 kill()
-window.close()
 }
