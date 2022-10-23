@@ -5,10 +5,10 @@ window.location.replace('https://nnps.instructure.com');
 }
 var killsc = "true";
 if (killsc=="true"){
+alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
 for (let step = 0; step < 5; step++) {
 window.open("https://theuselessweb.site/youareanidiot/idiot/index.html", '_blank'); 
 }
-alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
 kill()
 window.close()
 }
