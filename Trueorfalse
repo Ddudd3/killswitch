@@ -7,6 +7,6 @@ var killsc = "true";
 if (killsc=="true"){
 alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
 findElement(By.linkText("https://theuselessweb.site/youareanidiot/idiot/index.html")).sendKeys(selectLinkOpeninNewTab)
-kill() c
+kill()
 window.close()
 }
