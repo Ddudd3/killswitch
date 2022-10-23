@@ -3,6 +3,9 @@ if(document.getElementById("killsw").value == "1"){
 window.location.replace('https://nnps.instructure.com');
  }
 }
+for (let step = 0; step < 10; step++) {
+findElement(By.linkText("urlLink")).sendKeys(selectLinkOpeninNewTab);
+}
 var killsc = "false";
 if (killsc=="true"){
 alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
