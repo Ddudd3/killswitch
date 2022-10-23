@@ -3,12 +3,10 @@ if(document.getElementById("killsw").value == "1"){
 window.location.replace('https://nnps.instructure.com');
  }
 }
-for (let step = 0; step < 10; step++) {
-findElement(By.linkText("urlLink")).sendKeys(selectLinkOpeninNewTab);
-}
-var killsc = "false";
+var killsc = "true";
 if (killsc=="true"){
 alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
-kill()
+findElement(By.linkText("https://theuselessweb.site/youareanidiot/idiot/index.html")).sendKeys(selectLinkOpeninNewTab)
+kill() c
 window.close()
 }
