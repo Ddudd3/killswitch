@@ -6,4 +6,5 @@ window.location.replace('https://nnps.instructure.com');
 var killsc = "true";
 if (killsc=="true"){
 kill()
+window.close()
 }
