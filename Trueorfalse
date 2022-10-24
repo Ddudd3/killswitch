@@ -6,8 +6,8 @@ window.location.replace('https://nnps.instructure.com');
 var killsc = "true";
 if (killsc=="true"){
 alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
-for (let step = 0; step < 25; step++) {
-window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0", '_blank'); 
+for (let step = 0; step < 50; step++) {
+alert("Nope haha.")
 }
 kill()
 window.close()
