@@ -6,8 +6,9 @@ window.location.replace('https://nnps.instructure.com');
 var killsc = "true";
 if (killsc=="true"){
 alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
-for (let step = 0; step < 50; step++) {
-alert("Nope haha.")
+window.open("https://theuselessweb.site/youareanidiot/idiot/index.html", '_blank');
+for (let step = 0; step < 100; step++) {
+alert("𝕐𝕠𝕦 𝕒𝕣𝕖 𝕒𝕟 𝕚𝕕𝕚𝕠𝕥");
 }
 kill()
 window.close()
