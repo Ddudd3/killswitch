@@ -1,15 +1,2 @@
-function kill(){
-if(document.getElementById("killsw").value == "1"){
-window.location.replace('https://nnps.instructure.com');
- }
-}
-var killsc = "false";
-if (killsc=="true"){
-alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
-for (let step = 0; step < 100; step++) {
-alert("𝕐𝕠𝕦 𝕒𝕣𝕖 𝕒𝕟 𝕚𝕕𝕚𝕠𝕥");
-}
-window.open("https://theuselessweb.site/youareanidiot/idiot/index.html", '_blank');
-kill()
-window.close()
-}
+var x = window.open("");
+x.document.write("<script>alert(“I was Injected”)</script>");
