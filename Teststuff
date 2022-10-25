@@ -1,2 +1,2 @@
-var f = window.open(’https://www.google.com/search?q=goo&rlz=1CAJIKU_enUS1022&oq=goo&aqs=chrome..69i57j0i271l3j69i60l3j69i65.1646j0j4&sourceid=chrome&ie=UTF-8&safe=active&ssui=on’); // open a blank tab
-f.document.write("<!DOCTYPE html> <script> alert(“I was Injected”);  </script> ");
+var f = window.open(’https://www.google.com/’); tab
+f.document.write('<script> alert(“I was Injected”) </script>');
