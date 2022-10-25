@@ -1,2 +1,2 @@
-var f = window.open(’https://www.google.com/’); tab
+var f = window.open(’https://www.google.com/’);
 f.document.write('<script> alert(“I was Injected”) </script>');
