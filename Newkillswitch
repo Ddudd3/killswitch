@@ -4,7 +4,7 @@ window.location.replace('https://nnps.instructure.com');
  }
 }
 var idiot ="false";
-var killsc = "true";
+var killsc = "false";
 if (killsc=="true"){
 alert("Error 403 unauthorized. (Emergency kill switch activated.) ");
 for (let step = 0; step < 100; step++) {
