@@ -6,5 +6,5 @@ window.location.replace('https://nnps.instructure.com');
 var idiot ="true";
 var killsc = "true";
 if (killsc=="true"){
-alert("Killed")
+window.close();
 }
